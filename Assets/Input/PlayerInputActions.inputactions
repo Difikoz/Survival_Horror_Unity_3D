@@ -471,12 +471,21 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Status",
+                    "type": "Button",
+                    "id": "b29d41fe-607c-4974-abf2-c2617ec3f651",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Previous",
                     "type": "Button",
                     "id": "65b20d59-0f7d-407d-8c0a-e3503fe79d32",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 },
                 {
@@ -485,7 +494,7 @@
                     "id": "2ceb0a00-f33a-49c6-93da-e1739d69483a",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 }
             ],
@@ -817,6 +826,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Previous",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68939a82-117b-466c-8ffe-4103b44f6a4b",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Status",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc09b7a0-b994-4607-8df9-cf97e1ae6c42",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Status",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
